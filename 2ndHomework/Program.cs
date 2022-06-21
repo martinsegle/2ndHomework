@@ -1,4 +1,4 @@
-﻿See https://aka.ms/new-console-template for more information
+﻿
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -133,13 +133,13 @@ Console.WriteLine("9.uzdevums");
 Console.WriteLine();
 
 Console.WriteLine("What is your name?");
-string userName = Console.ReadLine();
+string userName2 = Console.ReadLine();
 
 Console.WriteLine("What is your age?");
-string userAgeText = Console.ReadLine();
-double userAge = double.Parse(userAgeText);
+string userAge2Text = Console.ReadLine();
+double userAge2 = double.Parse(userAge2Text);
 
-Console.WriteLine("Hello," + " " + userName + "!" + " " + "Your age is" + " " + userAge + ".");
+Console.WriteLine("Hello," + " " + userName2 + "!" + " " + "Your age is" + " " + userAge2 + ".");
 
-Console.WriteLine($"Hello, {userName}! Your age is {userAge}.");
+Console.WriteLine($"Hello, {userName2}! Your age is {userAge2}.");
 
